@@ -178,7 +178,7 @@ const Account = () => {
 							</Form>
 							<Form onSubmit={withdrawBalance} style={{ display: "block" }}>
 								<Form.Group className="mb-3" controlId="formBasicEmail">
-									<Form.Label>Deposit</Form.Label>
+									<Form.Label>Withdraw</Form.Label>
 									<Form.Control type="number"
 										placeholder="Withdraw ETH"
 										value={balanceWithdrawn}
